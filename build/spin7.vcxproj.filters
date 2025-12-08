@@ -189,10 +189,10 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{77365E5C-35B3-333B-A831-BD6FA23C2769}</UniqueIdentifier>
+      <UniqueIdentifier>{6BAA6888-231C-336B-A9A5-36469B5CCE07}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{1F787C74-D17A-3212-B20C-4E96D95EE9E3}</UniqueIdentifier>
+      <UniqueIdentifier>{9242A4A7-ABF7-3944-A2C5-6D2F62126692}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

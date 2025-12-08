@@ -28,10 +28,6 @@ C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/WindowsPaths.cmake
 D:/workspace/Developments/Lampad/spin7/CMakeLists.txt
-D:/workspace/Developments/build/CMakeFiles/4.1.1/CMakeCCompiler.cmake
-D:/workspace/Developments/build/CMakeFiles/4.1.1/CMakeCXXCompiler.cmake
-D:/workspace/Developments/build/CMakeFiles/4.1.1/CMakeRCCompiler.cmake
-D:/workspace/Developments/build/CMakeFiles/4.1.1/CMakeSystem.cmake
 D:/workspace/Developments/civetweb.cmake
 D:/workspace/Developments/json.cmake
 D:/workspace/Developments/libcurl.cmake
@@ -44,3 +40,7 @@ D:/workspace/Developments/static.cmake
 D:/workspace/Developments/unordered_dense.cmake
 D:/workspace/Developments/yyjson.cmake
 D:/workspace/Developments/zlib.cmake
+D:/workspace/Developments_git_practice/build/CMakeFiles/4.1.1/CMakeCCompiler.cmake
+D:/workspace/Developments_git_practice/build/CMakeFiles/4.1.1/CMakeCXXCompiler.cmake
+D:/workspace/Developments_git_practice/build/CMakeFiles/4.1.1/CMakeRCCompiler.cmake
+D:/workspace/Developments_git_practice/build/CMakeFiles/4.1.1/CMakeSystem.cmake

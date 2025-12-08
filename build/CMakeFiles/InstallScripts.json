@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"D:/workspace/Developments/build/cmake_install.cmake"
+		"D:/workspace/Developments_git_practice/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
