@@ -1,0 +1,9 @@
+.vscode
+.cache
+build*
+*/Silicom/*
+*.cmake
+*.prev
+spin2/spin2.eBPF
+spin2/spin2.o
+compile_commands.json

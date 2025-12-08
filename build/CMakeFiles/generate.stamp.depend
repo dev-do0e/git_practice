@@ -1,0 +1,46 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Linker/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Linker/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Linker/MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Linker/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Linker/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Linker/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/WindowsPaths.cmake
+D:/workspace/Developments/Lampad/spin7/CMakeLists.txt
+D:/workspace/Developments/build/CMakeFiles/4.1.1/CMakeCCompiler.cmake
+D:/workspace/Developments/build/CMakeFiles/4.1.1/CMakeCXXCompiler.cmake
+D:/workspace/Developments/build/CMakeFiles/4.1.1/CMakeRCCompiler.cmake
+D:/workspace/Developments/build/CMakeFiles/4.1.1/CMakeSystem.cmake
+D:/workspace/Developments/civetweb.cmake
+D:/workspace/Developments/json.cmake
+D:/workspace/Developments/libcurl.cmake
+D:/workspace/Developments/libssh.cmake
+D:/workspace/Developments/lz4.cmake
+D:/workspace/Developments/oneTBB.cmake
+D:/workspace/Developments/openssl.cmake
+D:/workspace/Developments/sqlite.cmake
+D:/workspace/Developments/static.cmake
+D:/workspace/Developments/unordered_dense.cmake
+D:/workspace/Developments/yyjson.cmake
+D:/workspace/Developments/zlib.cmake

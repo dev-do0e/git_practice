@@ -1,0 +1,70 @@
+{
+    "Core": {
+        "License": "4EEC41876C773B9AF6EFF40CAC04A408F144B8E4A7E2B4E428433DDB3351B17BE590802AE22F4D9EDF36A4AC7304C217D51A5C8533ED07A4AAA3570C64520248|KR|2100-12-31|128000000|B0:25:AA:2F:77:DF 38:00:25:9F:DB:02",
+        "Feed": "/Lampad/feeds",
+        "Log": "/Lampad/logs",
+        "LogsToMaintain": 15
+    },
+    "Spin4": {
+        "EchoLog": true,
+        "Sniffers": {
+            "eth2": "feed_eth2",
+            "eth3": "feed_eth3"
+        },
+        "CopyThreads": 1,
+        "VxLanPort": 4789,
+        "PeelIPinIP": true,
+        "RssQueueSize": -1,
+        "RingSizeMultiplier": 1,
+        "PacketTrays": 2,
+        "PacketsBulkSize": 1000000,
+        "SavePcapFile": true,
+        "TraySize": 4500000,
+        "TrayBufferSize": 128000000,
+        "CompressionLevel": 2,
+        "SessionTimeout": 72,
+        "Spin7UrlPrefix": "http://127.0.0.1:8080"
+    },
+    "Civet7": {
+        "listening_ports": 8080,
+        "ssl_protocol_version": "5",
+        "request_timeout_ms": 10000,
+        "num_threads": 20,
+        "enable_keep_alive": "yes",
+        "keep_alive_timeout_ms": 200,
+        "max_request_size": 1048576,
+        "additional_header": "Server: Spin7 for Lampad from Soul Systems Corp.\r\nX-Frame-Options: SAMEORIGIN\r\nX-XSS-Protection: 1\r\nStrict-Transport-Security: \"max-age=63072000; includeSubdomains; preload\";",
+        "access_control_allow_origin": "",
+        "error_log_file": "/Lampad/civetweb_error.log",
+        "enable_directory_listing": "no"
+    },
+    "Spin7": {
+        "EchoLog": true,
+        "SessionSeed": "9bc1f24ce2fc92c10b1a2a3af7ae7f054aad93211eae160dc6fb16ee3e6c9ef1",
+        "StaticFileRoot": "/Lampad/static",
+        "MessyRoom": "/Lampad/messyroom",
+        "TimeToClearRefineryResult": 6000,
+        "LoginExpiration": 43200,
+        "FullRescanInterval": 60,
+        "FeedFreeSpaceRatio": 10,
+        "ParadoxRecordsToMaintain": 1296000,
+        "MaxPayloadSizeForRegex": 1073741824,
+        "RttIgnoreFrom": 10000000000,
+	"CacheBuildConcurrency": 4,
+	"CacheMargin": 120,
+        "ServicesCacheLimit": 1000000,
+        "TopNGreedFactor": 10000,
+        "ParadoxDashboardUpdateInterval": 60,
+        "GlobalExclusion": []
+    },
+    "SavePcap": {
+        "EXAMPLE_FEEDNAME1": {
+            "duration": 123456,
+            "type": 0
+        },
+        "EXAMPLE_FEEDNAME2": {
+            "duration": 0,
+            "type": 2
+        }
+    }
+}

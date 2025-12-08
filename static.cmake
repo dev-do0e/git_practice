@@ -1,0 +1,6 @@
+#if(CMAKE_CXX_COMPILER_ID MATCHES "MSVC")
+if(WIN32)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /O2 /EHsc /utf-8")
+else()
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -pipe")
+endif()

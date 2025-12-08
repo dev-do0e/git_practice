@@ -1,0 +1,3 @@
+D:/workspace/Developments/build/CMakeFiles/spin7.dir
+D:/workspace/Developments/build/CMakeFiles/ALL_BUILD.dir
+D:/workspace/Developments/build/CMakeFiles/ZERO_CHECK.dir

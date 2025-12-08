@@ -1,0 +1,30 @@
+{
+	"mac_address" : "58:11:22:E2:CF:C3",
+	"scenario_name" : "북수원_영업소_EX_Latency",
+	"threshold" : { 
+		"major_ns" : 900000000, 
+		"minor_ns" : 500000000  
+	},
+	
+	"time_range" : {
+		"start" : "2025-07-01T05:31:04", 
+		"end" : "2025-07-29T05:31:04"
+	},
+	"values" : [
+		{
+			"timestamp": "2025-07-29T05:31:04", 
+			"rtt_ns": 9448712,					  
+			"status" : ["Frequent Spikes", "Pattern Anomaly"]      	
+		},
+		{
+			"timestamp": "2025-07-29T05:32:04",
+			"rtt_ns": 2148712,
+			"status" : ["normal"]            
+		},
+		{
+			"timestamp": "2025-07-29T05:32:04",
+			"rtt_ns": 2148712,
+			"status" : ["normal"]            
+		}
+    ]
+}

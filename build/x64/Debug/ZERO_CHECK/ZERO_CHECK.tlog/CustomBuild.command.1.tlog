@@ -1,0 +1,10 @@
+^D:\WORKSPACE\DEVELOPMENTS\BUILD\CMAKEFILES\A979A2B66EF61E43B75953FF5DF11164\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/workspace/Developments/Lampad/spin7 -BD:/workspace/Developments/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/workspace/Developments/build/spin7.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
