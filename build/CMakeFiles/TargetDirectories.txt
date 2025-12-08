@@ -1,3 +1,0 @@
-D:/workspace/Developments_git_practice/build/CMakeFiles/spin7.dir
-D:/workspace/Developments_git_practice/build/CMakeFiles/ALL_BUILD.dir
-D:/workspace/Developments_git_practice/build/CMakeFiles/ZERO_CHECK.dir
