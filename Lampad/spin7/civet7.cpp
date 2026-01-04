@@ -11,7 +11,6 @@
 #include "user.h"
 #include "svcd.h"
 #include "reportmanager.h"
-#include "ailampadxanomaly.h"
 
 // extern variables
 std::string Civet7::startupTime;
