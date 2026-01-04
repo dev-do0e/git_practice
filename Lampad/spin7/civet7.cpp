@@ -564,34 +564,6 @@ int Civet7::processQuery(mg_connection *connection, void *data)
                 return 1 + mg_send_http_error(connection, 405, "\r\n");
         }
 
-        // route: /ai
-        else if (path.find("/ai"s) == 0) {
-            path.erase(0, 3); // remove heading "/ai"
-            if(path.find("/lampad-x"s) == 0){
-                path.erase(0, 9); // remove heading "/lampad-x"
-                if(path.find("/anomaly"s) == 0){
-                    if (method == "POST"s){
-                        AiLampadxAnomaly::getInstance()->postAiLampadxAnomaly(connection, parameters);
-                    }else if (method == "GET"s){
-                        path.erase(0, 8); // remove heading "/anomaly"
-                        AiLampadxAnomaly::getInstance()->getAiLampadxAnomaly(connection, parameters, path);
-                    }else{
-                        return 1 + mg_send_http_error(connection, 405, "\r\n");
-                    }
-                }else if (path.find("/prepared"s) == 0){
-                    if (method == "GET"s){
-                        AiLampadxAnomaly::getInstance()->getAiLampadxPrepared(connection);
-                    }else{
-                        return 1 + mg_send_http_error(connection, 405, "\r\n");
-                    }
-                }else{
-                    return 1 + mg_send_http_error(connection, 404, "Query unknown.");
-                }
-            } else {
-                return 1 + mg_send_http_error(connection, 404, "Query unknown.");
-            }
-        }
-
         // route: everything else
         else
             return 1 + mg_send_http_error(connection, 404, "Query unknown.");

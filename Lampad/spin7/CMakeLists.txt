@@ -55,7 +55,7 @@ target_sources(${PROJECT_NAME}
     reportmanager.h reportmanager.cpp
     subsystems.h subsystems.cpp
     miscellany.h miscellany.cpp
-    ailampadxanomaly.h ailampadxanomaly.cpp
+    #ailampadxanomaly.h ailampadxanomaly.cpp
     ../featherlite.h ../featherlite.cpp
     ../loghandler.h ../loghandler.cpp
     ../supercodex.h ../supercodex.cpp
